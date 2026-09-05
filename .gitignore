@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# Environment variables (contains API keys)
+.env
+backend/.env
+
+# Node
+node_modules/
+credit_score_frontend/node_modules/
+dist/
+
+# Python
+__pycache__/
+backend/__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
